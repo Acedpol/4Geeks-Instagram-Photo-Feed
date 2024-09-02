@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: whitesmoke;
+    font-family: "Open Sans", sans-serif;
+}
+#header {
+    background: white;
+    text-align: center;
+    padding: 10px;
+}
+.photo {
+    width: 40%;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;
+}
+.photo img {
+    width: 100%;
+}
+.title {
+    float: left;
+    padding: 10px;
+}
+.date {
+    float: right;
+    padding: 10px !important;
+    color: lightgrey;
+}
+.photo p {
+    padding: 5px 20px 15px 20px;
+}
